@@ -4,7 +4,7 @@ class Blog extends CI_Controller
 {
     public function index()
     {
-        echo 'This is index function of blog controller';
+        return $this->load->view('blog_index');
     }
 
 
