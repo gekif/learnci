@@ -15,7 +15,7 @@
         <td><?= $user['firstname'] ?></td>
         <td><?= $user['lastname'] ?></td>
     </tr>
-    <?php endforeach; ?>
+    <?php endforeach ?>
 </table>
 
 </body>
